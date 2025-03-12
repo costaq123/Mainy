@@ -5,11 +5,17 @@
     justify-content: space-around;
     margin: 5px 0px;
     font-size: 20px;
-  }
-  .parte-azul {
+}
+
+.parte-azul {
     margin: 4px 6px;
-  }
-  img.parte-azul {
+}
+
+img.parte-azul {
     width: 99%;
-  }
-  
+}
+
+.imagem-perfil {
+    display: inline-block;
+    margin: -14px 36px;
+}
