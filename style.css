@@ -25,3 +25,7 @@ img.parte-azul {
     margin: 0px 20px;
   }
   
+  .imagem-perfil {
+    display: inline-block;
+    margin: -14px 36px;
+  }  
