@@ -20,6 +20,8 @@ img.parte-azul {
     margin: -14px 36px;
 }
 
-cabeçario-lista{
-    display: flex;
-}
+.texto-1 {
+    display: inline-block;
+    margin: 0px 20px;
+  }
+  
