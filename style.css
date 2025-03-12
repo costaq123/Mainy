@@ -19,3 +19,7 @@ img.parte-azul {
     display: inline-block;
     margin: -14px 36px;
 }
+
+cabeçario-lista{
+    display: flex;
+}
