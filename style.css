@@ -48,7 +48,7 @@ display: block;
 }
 
 #menu-toggle:checked + .botao-disciplinas {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 .parte-azul {
   margin: 4px 6px;
