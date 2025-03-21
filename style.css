@@ -20,7 +20,7 @@
 .lista-vertical {
   display: none;
   position: absolute;
-  background-color: blue;
+  background-color:#104063;
   box-shadow: 0 2px 5px var(#104063);
   min-width: 190px;
   z-index: 1;
@@ -40,7 +40,7 @@
 }
 
 .lista-vertical a:hover {
-  background-color:chartreuse;
+  background-color:#ffffff;
 }
 
 #menu-toggle:checked ~ .lista-vertical {
