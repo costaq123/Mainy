@@ -1,16 +1,16 @@
 .cabeçario {
-    background-color: #ffffff;
-    color: 000000;
-    display: flex;
-    justify-content: space-around;
-    margin: 5px 0px;
-    font-size: 20px;
+  background-color: #ffffff;
+  color: 000000;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px;
+  font-size: 20px;
 }
 
-header{
+header {
   display: flex;
   width: 100%;
-  background-color: var(--marinho);
+  background-color: aquamarine;
   padding: 1rem;
   position: relative;
   justify-content: center;
@@ -21,46 +21,81 @@ header{
   display: inline-block;
 }
 
+#menu-toggle {
+  display: none;
+}
 
+.lista-vertical {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  box-shadow: 0 2px 5px var(#104063);
+  min-width: 190px;
+  z-index: 1;
+  left: 1rem;
+  top: 100%;
+
+}
+
+.lista-vertical a {
+  color: black;
+  padding: 0,75rem 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+
+}
+
+.lista-vertical a:hover {
+  background-color:chartreuse;
+}
+
+#menu-toggle:checked ~ .lista-vertical {
+display: block;
+}
+
+#menu-toggle:checked + .botao-disciplinas {
+  background-color: black;
+}
 .parte-azul {
-    margin: 4px 6px;
+  margin: 4px 6px;
 }
 
 img.parte-azul {
-    width: 99%;
+  width: 99%;
 }
 
 .imagem-perfil {
-    display: inline-block;
-    margin: -14px 36px;
+  display: inline-block;
+  margin: -14px 36px;
 }
 
 .texto-1 {
-    display: inline-block;
-    margin: 0px 20px;
-  }
-  
-  .imagem-perfil {
-    display: inline-block;
-    margin: -14px 36px;
-  }  
+  display: inline-block;
+  margin: 0px 20px;
+}
 
-  a{
-    text-decoration: none;
-    color: #104063;
-  }
+.imagem-perfil {
+  display: inline-block;
+  margin: -14px 36px;
+}
 
-  .inicio11 {
-    background-color: #104063;
-    TEXT-ALIGN: center;
-    color: #ffffff;
-    font-size: 27px;
+a {
+  text-decoration: none;
+  color: #104063;
+}
+
+.inicio11 {
+  background-color: #104063;
+  TEXT-ALIGN: center;
+  color: #ffffff;
+  font-size: 27px;
 }
 
 .texto-em-cima1 {
-    TEXT-ALIGN: center;
-    color:#104063;
-    font-size: 27px;
-    margin: 17px;
+  TEXT-ALIGN: center;
+  color: #104063;
+  font-size: 27px;
+  margin: 17px;
 }
-
